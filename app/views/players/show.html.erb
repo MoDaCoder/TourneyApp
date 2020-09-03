@@ -1,0 +1,9 @@
+<h1>DISPLAYS CURRENT PLAYERS NAME</h1>
+
+<h3><%= @player.name%> #<%= @player.player_number%></h3>
+
+
+<br>
+<%= link_to "Go To Matches", players_path %>
+<%= button_to "Delete This Player", player_path(@player), method: :delete %>
+</br>
