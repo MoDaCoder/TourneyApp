@@ -1,0 +1,8 @@
+<h1> Edit Match </h1>
+
+<%= render 'form', match:@match %>
+
+<br>
+<%= button_to "Delete This Match", match_path(@match), method: :delete %>
+<%= link_to "Go To Matches", matches_path %>
+</br>
